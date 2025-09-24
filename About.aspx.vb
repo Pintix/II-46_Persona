@@ -10,6 +10,6 @@
     Protected Sub btnGuardar_Click(sender As Object, e As EventArgs)
         persona.Nombre = txtNombre.Text
         persona.Apellido = txtApellido.Text
-        lblMensaje.Text = "Datos guardados: " & persona.Nombre & " " & persona.Apellido
+        lblMensaje.Text = persona.Nombre + " " + persona.Apellido
     End Sub
 End Class
