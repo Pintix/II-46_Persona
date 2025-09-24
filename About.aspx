@@ -5,5 +5,12 @@
         <h2 id="title"><%: Title %>.</h2>
         <p>Your app description page.</p>
         <p>Use this area to provide additional information.</p>
+                 
+        <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtApellido" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtEdad" runat="server"></asp:TextBox>
+        <asp:button ID="btnGuardar" runat="server" Text="Guardar" OnClick="btnGuardar_Click" />
+        <asp:Label ID="lblMensaje" runat="server" Text="Mensaje"></asp:Label>
+        
     </main>
 </asp:Content>
